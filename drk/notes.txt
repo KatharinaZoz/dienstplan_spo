@@ -1,0 +1,12 @@
+add the <html lang="<?= htmlspecialchars($lang) ?>"> instead of the simpler lang thingy at the top of the html
+
+add alerts with aria reading thingy like so:
+<p class="sr-only" role="alert">
+  Login failed. Please check your credentials.
+</p>
+
+for mail server:
+sudo pacman -S composer
+bash:
+composer require phpmailer/phpmailer
+

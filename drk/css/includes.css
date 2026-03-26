@@ -1,0 +1,48 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
+    height: 64px;
+    background: var(--white);
+    border-bottom: 1px solid  var(--middle-gray);
+    padding: 0 16px;
+
+    z-index: 720;
+
+}
+
+/*.top-bar .logologout-chip {
+  margin-right: 1rem;
+}*/
+
+.drk-logo {
+    max-width: 130px;
+    height: auto;
+
+    padding-left: 200px;
+
+}
+
+.language-switch {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    padding-left: 12px;
+
+    border: 1px solid var(--middle-gray);
+    border-radius: 999px;
+    background-color: var(--white);
+
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+}
+
+
+
+.language-switch-wrapper {
+    display: flex;
+    margin-left: auto;
+}

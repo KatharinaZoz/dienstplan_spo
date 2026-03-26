@@ -1,0 +1,160 @@
+.create-event-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; /* gives consistent spacing between icon and text */
+    padding: 10px 15px;
+    background-color: #fafafa;
+    border: 2px dashed var(--drk-red);
+    border-radius: 12px; /* soften container corners */
+    /* set up transition for smooth animation */
+    transition: transform 0.2s ease; 
+}
+/*3rd layer*/
+.create-event-button-wrapper:hover  {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+}
+
+/*popup 2nd layer form*/
+.create-event {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    padding: 30px 40px;
+    width: 450px;
+    min-height: 580px;
+
+    background-color: #ffffff;
+
+    border: 1px solid var(--light-gray);
+    border-radius: 14px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    transform: translateY(8px);
+    transition: transform 0.2s ease;
+}
+.create-event::before {
+    content: "";
+    height: 4px;
+    background-color: var(--drk-red);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+
+
+/*button in 3rd layer*/
+.create-event-banner {
+    background-color:#fafafa;
+    color: var(--drk-red);
+
+    border: 2px dashed var(--drk-red);
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+/*button in 3rd layer*/
+.create-event-banner:hover {
+    background-color: var(--drk-red);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease ;
+}
+/*button in 3rd layer*/
+.create-event-banner:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(227, 6, 19, 0.3);
+}
+/*button in 3rd layer*/
+.create-event-banner span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+/*button in 3rd layer*/
+.create-event-banner:hover span {
+    transform: rotate(15deg) scale(1.1);
+}
+
+/*popup 1st layer*/
+.create-event-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: fixed;          /* so it overlays the page */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;      /* center the form vertically */
+    background-color: rgba(0,0,0,0.5); /* optional overlay */
+
+    backdrop-filter: blur(6px);      /* background blur */
+    -webkit-backdrop-filter: blur(6px);
+
+    visibility: hidden;
+    z-index: 1000;            /* make sure it’s on top of other content */
+}
+/*popup 1st layer*/
+.create-event-wrapper.show {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.create-event {
+    transform: translateY(8px);
+}
+
+.create-event-wrapper.show .create-event {
+    transform: translateY(0);
+}
+
+/*banner text in 3rd layer*/
+.create-event-text {
+    color: var(--drk-red);
+
+    padding: 4px;
+    margin-left: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*popup 4th layer form submit button*/
+.create-event-button {
+    background-color: var(--white);
+
+    padding: 5px;
+    border: 3px solid var(--drk-red);
+    border-radius: 6px;
+    color: var(--drk-red);
+    font-size: medium;
+    transition: background-color 120ms ease, transform 120ms ease;
+}
+/*popup 3rd layer button wrapper*/
+.create-button-wrapper {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#app-description {
+    width: 100%;
+    min-height: 140px;
+    resize: vertical;
+}
+
+#app-description:focus {
+    outline: none;
+    border-color: var(--drk-red);
+    box-shadow: 0 0 0 3px rgba(227, 6, 19, 0.08);
+}

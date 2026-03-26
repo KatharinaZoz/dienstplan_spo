@@ -1,0 +1,274 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--light-gray);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none;
+    transition: none;
+  }
+}
+
+.card{
+    animation: fadeInUp 180ms ease-out;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 32px;
+
+    border: 1px solid rgb(180, 180, 180);
+    border-width: 2px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    width: 100%;
+    min-width: 400px;
+    max-width: 420px;
+
+    background-color: var(--white);
+}
+
+.card-center {
+    max-width: 420px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.card-title {
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-context {
+    margin-top: 0px;
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+    margin-bottom: 16px;
+}
+
+.error-context {
+    margin-top: 0px;
+    font-size: 0.875rem;
+    color: var(--drk-dark-red);
+    margin-bottom: 16px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px 14px;
+    font-size: 16px;
+
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+
+    background-color: #ffffff;
+
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--drk-red);
+    box-shadow: 0 0 0 3px rgba(227, 6, 19, 0.08);
+}
+
+
+.prim-button {
+    background-color: var(--drk-red);
+
+    padding: 5px;
+    border: 1px solid var(--middle-gray);
+    border-radius: 6px;
+    color: var(--white);
+    transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.prim-button:hover {
+    background-color: var(--drk-dark-red);
+    transform: translateY(-1px);
+}
+
+.prim-button:active {
+    transform: translateY(0);
+}
+
+.prim-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.switch-auth {
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+}
+
+.switch-auth a {
+    color: var(--drk-soft-red);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.switch-auth a:hover {
+    text-decoration: underline;
+}
+
+
+:focus-visible {
+  outline: 3px solid var(--drk-red); /* DRK red */
+  outline-offset: 2px;
+}
+
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--drk-red);
+  outline-offset: 2px;
+}
+
+/* Container in your header (flex layout) */
+.header-actions {
+  margin-left: 70%;              /* push to the right in a flex header */
+  display: flex;
+  align-items: center;
+}
+
+/* Base logout button */
+.logout-chip {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 0.35rem;
+  padding: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border-radius: 999px;           /* pill-shaped chip */
+  border: 1px solid var(--middle-gray);
+
+  background: var(--white); /* very light neutral */
+
+  font-size: 0.875rem;
+  color: var(--dark-gray);
+  font-weight: 500;
+  cursor: pointer;
+
+  outline: none;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 80ms ease;
+}
+
+/* Icon: simple door/arrow using CSS only */
+.logout-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+/* Door rectangle */
+.logout-icon::before {
+  content: "";
+  position: absolute;
+  inset: 1px 6px 1px 1px;
+  border-radius: 2px;
+  border: 1.5px solid #067c8c;
+}
+
+/* Arrow pointing out */
+.logout-icon::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 1.5px solid #067c8c;
+  border-right: 1.5px solid #067c8c;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* Label text */
+.logout-label {
+  letter-spacing: 0.02em;
+  font-size: 0.875rem;
+}
+
+/* Hover / focus – stay subtle, not alarming */
+.logout-chip:hover,
+.logout-chip:focus-visible {
+  background: var(--drk-red-30);           /* light blue */
+  border-color: var(--drk-red);  
+  color: var(--drk-red);       /* brighter edge */
+  box-shadow: 0 0 0 1px rgba(92, 196, 220, 0.4);
+}
+
+/* Active click feedback */
+.logout-chip:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+/* High-contrast mode support for accessibility */
+@media (prefers-contrast: more) {
+  .logout-chip {
+    border-color: #067c8c;
+  }
+}
+
+/* If your header background is darker, bump contrast slightly */
+.header-dark .logout-chip {
+  background: rgba(15, 23, 42, 0.06);
+  color: #049c84;
+  border-color: rgba(148, 163, 184, 0.9);
+}
+

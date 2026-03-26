@@ -1,0 +1,78 @@
+[24-Mar-2026 20:32:08 UTC] PHP Warning:  Undefined array key "event_title_plch" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/event/app_create.php on line 8
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "search_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 7
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "search_btn" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 77
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:23:44 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "search_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 7
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "dashboard_users" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 77
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 77
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:29:17 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  Undefined array key "search_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 7
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:29:28 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:31:45 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "admin_nav" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/admin_nav.php on line 10
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/admin_nav.php on line 10
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "admin_nav" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/admin_nav.php on line 15
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/admin_nav.php on line 15
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "dashboard_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 7
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 7
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "dashboard_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 77
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 77
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "admin_users" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "admin_users" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Undefined array key "admin_users" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  Trying to access array offset on null in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:32:06 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:32:18 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:43 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:44 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:36:45 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  Undefined array key "qualification" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_search.php on line 60
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  Undefined array key "edit_user_title" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 5
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  Undefined array key "user_is_admin" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 63
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  Undefined array key "delete_user" in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_popup.php on line 80
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  include(confirm_crit_action.php): Failed to open stream: No such file or directory in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151
+[26-Mar-2026 10:37:15 UTC] PHP Warning:  include(): Failed opening 'confirm_crit_action.php' for inclusion (include_path='.:') in /home/nina/Documents/Projects/drk/page/dashboard/dashboard_admin/user/user_management.php on line 151

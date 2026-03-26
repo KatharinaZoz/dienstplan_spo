@@ -1,0 +1,38 @@
+
+
+.calendar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.cal-nav-wrapper {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-table {
+    background-color: var(--white);
+}
+
+.calendar-header {
+    background-color: var(--drk-soft-red);
+}
+
+
+table {
+    width: 65%;
+    table-layout: fixed;
+}
+
+td {
+    padding-left: 10px;
+    height: 80px;
+    vertical-align: top;
+    text-align: left;
+
+    border: 1px solid black;
+}

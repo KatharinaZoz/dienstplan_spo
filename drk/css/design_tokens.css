@@ -1,0 +1,30 @@
+:root {
+    /* DRK COLOURS */
+    /* primary */
+    --drk-red: #e60005;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #7F7F7F;
+
+    /* secondary */
+    --dark-blue: #002d55; /* manu icons, arrows, hover effects, buttons and maps */
+    --light-blue: #ebf5ff; /* background for forms, hover effect in hamburger menu */
+    --middle-blue: #008ccd; /* hover effects */
+    --full-blue: #2275d0; /* links */
+    --blue-60: #698caf;
+    --blue-30: #b4c3d7;
+
+    --drk-red-60: #eb8264;
+    --drk-red-30: #fac3af;
+    --drk-soft-red: #e46450; /* icons */
+    --drk-dark-red: #a51e0f; /* hover effects */
+
+    --dark-gray: #554f4a; /* continuous text */
+    --middle-gray: #b4b4b4; /* lines that seperate topics */
+    --light-gray: #efeeea; /* alternative backgroundcolour */
+    --country-gray: #d9d9d9; /* to highlight non-crisis or non-project countries on maps */
+
+
+    /* Typography */
+    --font-base: "Helvetica Neue", "Open Sans", Arial, Helvetica;
+}

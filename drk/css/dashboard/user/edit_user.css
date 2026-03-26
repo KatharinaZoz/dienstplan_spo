@@ -1,0 +1,84 @@
+.user-popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+
+    backdrop-filter: blur(6px);      /* background blur */
+    -webkit-backdrop-filter: blur(6px);
+    
+    visibility: hidden;  /* hidden by default */
+}
+
+.user-popup.show {
+    visibility: visible;
+}
+.edit-user-wrapper.show .edit-user {
+    transform: translateY(4px);
+}
+
+.edit-user {
+    position: relative; /* important for the pseudo-element */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-top:20px;
+    padding: 30px 40px;
+    width: 500px;
+    min-height: 550px;
+    max-height: 700px;
+
+    background-color: #ffffff;
+
+    border: 1px solid var(--light-gray);
+    border-radius: 14px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    overflow: auto;
+
+    transform: translateY(8px);
+    transition: transform 0.2s ease;
+}
+
+.edit-user::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    margin-bottom: 20px;
+
+    width: 80%;
+    height: 4px;
+
+    background-color: var(--drk-red);
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.create-event::before {
+    content: "";
+    height: 4px;
+    background-color: var(--drk-red);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.close-button {
+    display: flex;
+    float: right;
+
+    background-color: var(--white);
+
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
