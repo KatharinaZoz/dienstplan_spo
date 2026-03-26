@@ -294,3 +294,9 @@
     color: #fff;
 }
 
+
+
+.event_mode_select {
+    position: relative;
+    float:right;
+}

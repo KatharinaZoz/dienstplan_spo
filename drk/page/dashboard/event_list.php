@@ -2,6 +2,7 @@
 include_once __DIR__ . "/../../src/UserRepository.php"; ?>
 
 <div class="event-search-wrapper">
+    <?php include __DIR__ . '/../dashboard/event_overview.php' ?>
     <?php if ($_SESSION['is_admin'] == 1): ?>
         <div class="create-event-button-wrapper" id="create-event">
             <button class="create-event-banner" id="create-event-banner">+</button>
