@@ -48,5 +48,19 @@ return [
         "delete" => "Delete",
         "save" => "Save all",
         "export_timesheet" => "Export timesheet"
+    ],
+    "admin_users" => [
+        "edit_user_title" => "Edit user: ",
+        "user_is_admin" => "User is admin",
+        "delete_user" => "Delete user"
+    ],
+    "admin_nav" => [
+        "user_management" => "User Management",
+        "event_management" => "Event Management"
+    ],
+    "dashboard_user" => [
+        "search_title" => "Search users by attribute: ",
+        "search_btn" => "Search",
+        "edit_user_title" => "Edit user: "
     ]
 ];

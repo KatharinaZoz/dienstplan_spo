@@ -18,7 +18,6 @@ return [
         "password_repeat" => "Passwort wiederholen",
         "choose_quali" => "Wähle deine höchste Qualifikation: ",
         "choose_quali_search" => "Qualifikation",
-        "select" => "-- Select --",
         "already_registered" => "Schon einen Account?",
         "not_registered" => "Noch keinen Account?",
     ],
@@ -51,7 +50,9 @@ return [
         "export_timesheet" => "Exportieren"
     ],
     "admin_users" => [
-
+        "edit_user_title" => "Nutzer bearbeiten: ",
+        "user_is_admin" => "Benutzer ist Admin",
+        "delete_user" => "Benutzer löschen"
     ],
     "admin_nav" => [
         "user_management" => "Benutzer Management",
@@ -60,8 +61,6 @@ return [
     "dashboard_user" => [
         "search_title" => "Suche Benutzer nach Attributen: ",
         "search_btn" => "Suchen",
-        "edit_user_title" => "Benutzer bearbeiten: ",
-        "user_is_admin" => "Benutzer is Admin",
-        "delete_user" => "Benutzer löschen"
+        "edit_user_title" => "Benutzer bearbeiten: "
     ]
 ];
