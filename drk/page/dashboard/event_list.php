@@ -1,5 +1,8 @@
 <?php
-include_once __DIR__ . "/../../src/UserRepository.php"; ?>
+include_once __DIR__ . "/../../src/UserRepository.php";
+
+
+?>
 
 <div class="event-search-wrapper">
     <?php include __DIR__ . '/../dashboard/event_overview.php' ?>

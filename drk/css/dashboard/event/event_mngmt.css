@@ -299,4 +299,13 @@
 .event_mode_select {
     position: relative;
     float:right;
+
+    padding: 4px;
+    padding-left: 12px;
+
+    border: 1px solid var(--middle-gray);
+    border-radius: 999px;
+    background-color: var(--white);
+
+    font-size: 0.875rem;
 }

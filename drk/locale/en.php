@@ -47,7 +47,9 @@ return [
         "denied" => "Denied",
         "delete" => "Delete",
         "save" => "Save all",
-        "export_timesheet" => "Export timesheet"
+        "export_timesheet" => "Export timesheet",
+        "show_all" => "Show all",
+        "show_applied" => "Show applied"
     ],
     "admin_users" => [
         "edit_user_title" => "Edit user: ",

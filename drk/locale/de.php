@@ -47,7 +47,9 @@ return [
         "denied" => "Abgelehnt",
         "delete" => "Löschen",
         "save" => "Speichern",
-        "export_timesheet" => "Exportieren"
+        "export_timesheet" => "Exportieren",
+        "show_all" => "Alle anzeigen",
+        "show_applied" => "Nur gemeldete anzeigen"
     ],
     "admin_users" => [
         "edit_user_title" => "Nutzer bearbeiten: ",

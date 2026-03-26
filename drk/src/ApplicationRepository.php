@@ -8,7 +8,7 @@ function get_events(PDO $pdo): array
         WHEN EXISTS (
             SELECT 1 FROM appointment_users au2 
             WHERE au2.appointment_id = a.id 
-            AND au2.user_id = :user_id  -- your current user ID
+            AND au2.user_id = :user_id  
         ) THEN 1 ELSE 0 
     END AS user_joined
     FROM appointments a
@@ -29,6 +29,28 @@ function get_events(PDO $pdo): array
         error_log($e->getMessage());
     }
     return [];
+}
+
+function get_user_events(PDO $pdo)
+{
+    validate_user(false, $pdo);
+    $id = $_SESSION['user_id'];
+    $sql = "SELECT a.*, COUNT(CASE WHEN au.approval_status IN ('approved', 'pending') THEN au.user_id END) AS helpers
+    FROM appointments a 
+    LEFT JOIN appointment_users au
+        ON a.id = au.appointment_id
+    WHERE au.user_id = :id
+    ";
+    try {
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([':id' => $id]);
+        $events = $stmt->fetchAll();
+    } catch (PDOException $e) {
+        error_log($e->getMessage());
+        return [];
+    }
+
+    return $events;
 }
 
 function get_event_by_id(PDO $pdo, int $id): array
